@@ -26,7 +26,7 @@ const JokesPage = (props) => {
       </nav>
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-md-8">
+          <div className="col-md-12">
             <ul className="list-group mt-4">
               {jokesPageData.map((eachJoke) => (
                 <div className="joke-card">
@@ -34,7 +34,7 @@ const JokesPage = (props) => {
                     Category:{" "}
                     <span className="category-name">{eachJoke.category}</span>
                   </h1>
-                  <li key={eachJoke.id} className="list-group-item">
+                  <li key={eachJoke.id} className="mb-2 list-group-item">
                     {eachJoke.joke}
                   </li>
                 </div>

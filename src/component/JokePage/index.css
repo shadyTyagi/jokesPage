@@ -2,6 +2,10 @@
   font-family: "Roboto";
 }
 
+.container {
+  background-color: rgb(76, 186, 234);
+}
+
 .joke-category {
   font-size: 15px;
   font-family: "Roboto";

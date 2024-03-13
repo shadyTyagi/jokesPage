@@ -80,7 +80,7 @@ const Login = () => {
       {isTrue ? (
         renderSuccessView()
       ) : (
-        <div className="container">
+        <div className="bg-container">
           <div className="row justify-content-center mt-5">
             <div className="col-md-6">
               <div className="card">
