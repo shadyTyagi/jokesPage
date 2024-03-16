@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import JokesPage from "../JokePage";
+import "./index.css";
 
 const apiStatusConstants = {
   initial: "INITIAL",
@@ -83,6 +84,14 @@ const Login = () => {
         <div className="bg-container">
           <div className="row justify-content-center mt-5">
             <div className="col-md-6">
+              <div className="dummy-card d-flex justify-content-center flex-column">
+                <h1 className="dummy-details">
+                  Email: <span className="dummy">rajat@gmail.com</span>
+                </h1>
+                <h1 className="dummy-details">
+                  Password: <span className="dummy">rajattyagi</span>
+                </h1>
+              </div>
               <div className="card">
                 <div className="card-header">Login</div>
                 <div className="card-body">
